@@ -1,0 +1,36 @@
+body {
+    font-family: 'Signika', sans-serif;
+    background-color: #1a0225;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Başlık */
+h1 {
+    font-size: 28px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Bağlantıların Stili */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Çıkış Yap Bağlantısı */
+a[href$="cikis.php"] {
+    color: #f44336;
+}
+
+a[href$="cikis.php"]:hover {
+    color: #e53935;
+}

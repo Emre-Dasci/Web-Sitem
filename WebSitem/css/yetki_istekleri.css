@@ -1,0 +1,101 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: 'Signika', sans-serif;
+    background-color: #1a0225;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menü Bölümü */
+#menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav#hg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav#hg a#cik {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav#hg a#cik:hover {
+    text-decoration: underline;
+}
+
+/* Ana Sayfa Bölümü */
+#anasayfa {
+    padding: 20px;
+}
+
+#black {
+    background-color: #000;
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+#icerik {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tablo Stil Ayarları */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="submit"][name="reddet"] {
+    background-color: #f44336;
+}
+
+input[type="submit"][name="reddet"]:hover {
+    background-color: #e53935;
+}

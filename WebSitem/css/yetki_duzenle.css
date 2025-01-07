@@ -1,0 +1,65 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: 'Signika', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Başlık */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Form Stili */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+form select {
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Geri Dön Bağlantısı */
+a[href="kullanicilar.php"] {
+    color: #2196F3;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a[href="kullanicilar.php"]:hover {
+    text-decoration: underline;
+}

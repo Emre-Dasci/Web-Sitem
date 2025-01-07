@@ -1,0 +1,47 @@
+h1{
+  color: #210043;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th{
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+}
+  
+#customers tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover{
+  background-color: rgba(55, 55, 55, 0.487);
+}
+
+#customers th{
+  text-decoration:none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #210043;
+  color: white;
+}
+
+a{
+  text-align: center;
+  text-decoration:none;
+  color: rgb(0, 0, 0);
+}
+
+a:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.471);
+}

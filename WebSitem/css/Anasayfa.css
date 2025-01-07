@@ -1,0 +1,261 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#hg{
+    text-align: center;
+    color: rgb(57, 41, 70);
+    font-size: 30px;
+    font-family:fantasy;
+    margin-left: 30px;
+}
+#cik
+{
+    text-align: center;
+    margin-left: 30px;
+    font-size: 20px;
+    float:right;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: grey;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 25px;
+    color: rgb(255, 255, 255);
+    transition: 0.3s linear;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.ikon{
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+#anasayfa{
+    background-image: url("../resimler/arkaplan.jpg"); 
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.3;
+}
+
+#icerik{
+    position: absolute;
+    top:50%;
+    left:40%;
+    transform: translate(-60%,-120%);
+    color: white;
+    font-size: 15px;
+}
+
+#hakkimizda{
+    background-color: #787878;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 55px;
+    color: #000000;
+    text-shadow: 0px 1px 1px rgb(255, 255, 255) ;
+}
+
+#container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#sol {
+    float: left;
+    border-right: 3px solid rgba(0, 0, 0, 0.441);
+    font-size: 30px;
+    width: 400px;
+    color: rgba(0, 0, 0, 0.441);
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #000000;
+    font-weight: 600;
+    float: left;
+}
+
+#sag{
+    float: right;
+    width: 750px;
+    color: rgba(255, 255, 255, 0.563);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+#pson{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+
+#iletisim{
+    background: url("../resimler/contact.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+
+#h3iletisim{
+    color: white;
+}
+
+#iletisimopak{
+    background-color: rgba(255, 255, 255, 0.122);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+
+#sagform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#mesajbaslik{
+    font-size: 30px;
+    color: white;
+    margin-top: 0px;
+}
+
+#adres{
+    width: 450px;
+    height: 500px;
+    float: right;
+    padding: 30px;
+    text-align: left;
+}
+
+#adresbaslik{
+    font-size: 30px;
+    color: white;
+    margin-top: -30px;
+}
+
+#adres p{
+    color: white;
+    font-size: 20px;
+    letter-spacing:1.5px;
+}
+
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+#up{
+    float: right;
+
+    background-attachment: fixed; 
+} 
